@@ -1,0 +1,26 @@
+*{
+}
+body {
+	background-color:IndianRed;
+	color:#5A4636;	
+	font-family: Helvetica, Impact, "Times New Roman", sans-serif;
+}
+h1, h2, h3 {
+	color: rgb(244, 228, 193);
+}
+#conditions{
+	color:LightGoldenRodYellow;
+	
+}
+.centerText{
+	text-align:center;
+}
+ul li{
+	color:green;
+}
+button:hover{
+	background-color:gray;
+}
+input[type="text"]{
+	background-color:LightGoldenRodYellow;
+}

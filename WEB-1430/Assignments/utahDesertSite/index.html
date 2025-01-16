@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="Utah, desert, animals, flowers">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel = "stylesheet" href="styles/main.css">
+		<script type="text/javascript" src="scripts/main.js"></script>
+		<title>Utah's Desert</title>
+	</head>
+	<body id="pageBody">
+		<h1 class="centerText">Utah Desert</h1>
+		<!--<img src ="utah_desert_images/desert_north.jpg">-->
+		<p>Utah's desert landscape is a breathtaking expanse of arid beauty, 
+		characterized by red rock formations, sandy basins, and a unique
+		ecosystem adapted to its harsh climate.</p>
+		<hr>
+		<h2 class="centerText">Utah Desert Flowers</h2>
+		<ul>
+			<li>Sego Lily State Flower</li>
+			<li>Prickly Pear Cactus</li>
+			<li>Desert Sunflower</li>
+		</ul>
+		<a href="https://www.nps.gov/care/learn/nature/wildflowers.htm" target="_blank">More About Utah Flowers</a>
+		<h2 class="centerText">Utah Desert Animals</h2>
+		<ol>
+			<li>Cottontail Rabbit</li>
+			<li>Diamondback Rattlesnake</li>
+			<li>Bighorn Sheep</li>
+		</ol>
+		<a href ="pages/animals.html" target="_blank">More Desert Animals</a>
+		<h2 class="centerText">Additional Site Features</h2>
+		<h3>Request Info</h3>
+			<form>
+				<label for="customerName">Customer Name:</label>
+				<input type ="text" id="customerName">
+				<br>
+				
+				<input name="region" type="radio" id="north" value ="north">
+				<label for="north">North</label>
+				<br>
+				<input name="region" type="radio" id="south" value="south">
+				<label for="south">South</label>
+				<br>
+				<input name="region" type="radio" id="east" value="east">
+				<label for="east">East</label>
+				<br>
+				<input name="region" type="radio" id="west" value="west">
+				<label for="west">West</label>
+			</form>
+		<h3>Try it Out</h3>
+			<p id="conditions">Current Conditions</p>
+			<button onclick="makeRain()">Make it Rain</button>
+		<p class="centerText">&copy; Copyright 2025 McKay N. Erickson. All rights reserved.</p>
+	</body>
+</html>
